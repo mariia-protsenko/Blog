@@ -1,0 +1,52 @@
+.comments {
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+
+  @media (max-width: 900px) {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.icon {
+  @media (max-width: 900px) {
+    margin-right: -20px;
+    margin-left: -5px;
+  }
+}
+
+.user {
+  width: 150px;
+
+  @media (max-width: 1200px) {
+    width: 120px;
+  }
+
+  @media (max-width: 900px) {
+    width: 80px;
+  }
+}
+
+.comment {
+  width: 230px;
+
+  @media (max-width: 1200px) {
+    width: 150px;
+  }
+
+  @media (max-width: 900px) {
+    width: 100px;
+  }
+}
+
+.divider {
+  @media (max-width: 900px) {
+    margin-left: 45px;
+  }
+}
